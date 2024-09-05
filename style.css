@@ -37,6 +37,12 @@ h1, h2 {
     margin: 20px 0;
 }
 
+/* .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+
 #skills h2 {
     border-bottom: 2px solid #6a1b9a;
     padding-bottom: 10px;
@@ -55,8 +61,16 @@ h1, h2 {
     border-radius: 5px;
 }
 
+.texto{
+    border: 2px dashed #6a1b9a;
+    padding: 10px;
+    margin: 20px;
+}
+
 .about_skills {
     margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -109,3 +123,38 @@ hr {
     background: #6a1b9a;
     margin: 20px 0;
 }
+
+@media only screen and (max-width: 1000px) {
+    .introduction_image {
+        width: 50%;
+        border-radius: 100px;
+        margin-bottom: 50px;
+    }
+    #skills ul li {
+        margin-bottom: 10px;
+        
+    }
+}
+/* @media only screen and (min-width: 700px) {
+    #skills ul li {
+        width: 50%;
+        
+    }
+    .flex-container {
+        margin-left: 250px;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+    
+@media only screen and (max-width: 1000px) {
+    .texto {
+        border: 6px dashed #6a1b9a;
+        padding: 10px;
+        margin: 20px;
+    }
+    #skills ul li {
+        text-align: center;
+    }
+} */

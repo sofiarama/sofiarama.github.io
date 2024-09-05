@@ -126,9 +126,11 @@ hr {
 
 @media only screen and (max-width: 1000px) {
     .introduction_image {
-        width: 50%;
-        border-radius: 100px;
-        margin-bottom: 50px;
+        width: 100%;
+        max-width: 350px;
+        border-radius: 50px;
+        /* padding: 50px; */
+        /* margin: 0px; */
     }
     #skills ul li {
         margin-bottom: 10px;

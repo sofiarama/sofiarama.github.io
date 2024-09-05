@@ -124,7 +124,7 @@ hr {
     margin: 20px 0;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1020px) {
     .introduction_image {
         width: 100%;
         max-width: 350px;
@@ -134,7 +134,13 @@ hr {
     }
     #skills ul li {
         margin-bottom: 10px;
+        text-align: center;
         
+    }
+    .texto {
+        border: 6px dashed #6a1b9a;
+        padding: 10px;
+        margin: 20px;
     }
 }
 /* @media only screen and (min-width: 700px) {
@@ -150,13 +156,5 @@ hr {
     }
 }*/
     
-@media only screen and (max-width: 1000px) {
-    .texto {
-        border: 6px dashed #6a1b9a;
-        padding: 10px;
-        margin: 20px;
-    }
-    #skills ul li {
-        text-align: center;
-    }
-} 
+/* @media only screen and (max-width: 1000px) {
+}  */
